@@ -1,0 +1,13 @@
+modificar el archivo gitea/gitea/conf/app.ini  
+
+con
+
+[repository.upload]
+ENABLED = true
+TEMP_PATH = data/tmp/uploads
+FILE_MAX_SIZE = 500
+MAX_FILES = 500
+
+asi se puede subir mas archivos de mayor tamaño
+
+luego reboot al container
